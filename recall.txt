@@ -1,0 +1,27 @@
+***************MANUAL***************
+
+Use following functions to operate with image:
+
+"rotate angle" - turns image to "angle" degrees over center
+"sharp" - sharpens image
+"edges" - shows image contour
+"blurImg" - blurs image
+"blurToRight" - blurs image with right motion effect
+"blurToLeft" - blurs image with left motion effect
+"smooth" - smooths image
+"shape3d" - changes image in order to view volumetric picture
+"bright koef" - change brightness of image, koef varies from -127 to 127
+"contrast koef" - change contrast of image, koef varies from -127 to 127
+"sepia" - applies sepia effect
+"grayshades s" - turns image to gray using "s" shades
+"grayAVG" - turns image to gray using averaging method
+"grayLight" - turns image to light gray
+
+  ########################################################
+## Use following tips on how to use functions listed above
+##   Type "image_path function_name (-params)"
+to process image using "function_name" with params if necessary
+##   Type "txtFile_path function_name (-params)"
+to process images, listed in txt file, using "function_name" with params if necessary
+##   Type "folder_path function_name (-params)"
+to process images, situated in given folder, using "function_name" with params if necessary
